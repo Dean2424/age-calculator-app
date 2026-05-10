@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="age-calculator">
+    <form>
+      <div class="input-group">
+      <label for="day">Day</label>
+      <input type="number" name="day" id="day" class="day-input" placeholder="DD">
+      <p class="error-msg">This field is required</p>
+      </div>
+      <div class="input-group">
+      <label for="month">Month</label>
+      <input type="number" name="month" id="month" class="month-input" placeholder="MM">
+      <p class="error-msg">This field is required</p>
+      </div>
+      <div class="input-group">
+      <label for="year">Year</label>
+      <input type="number" name="year" id="year" class="year-input" placeholder="YYYY">
+      <p class="error-msg">This field is required</p>
+      </div>
+    </form>
+
+    <div class="divider">
+      <button type="submit"><img src="./assets/images/icon-arrow.svg" alt="Arrow Button Logo"></button>
+    </div>
+
+    <div class="output-container">
+      <div class="years-output"><span>--</span>years</div>
+      <div class="months-output"><span>--</span>months</div>
+      <div class="days-output"><span>--</span>days</div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
